@@ -1,0 +1,139 @@
+{
+  "_provenance": {
+    "generated_at_utc": "2026-04-07T15:54:11Z",
+    "pipeline": "parallel (destination → budget ∥ hotel → itinerary)",
+    "environment": "TRAVEL_PLANNER_DISABLE_SERPER=true (no live web search during capture)",
+    "disclaimer": "LLM-generated; verify hotels, prices, and travel rules before booking.",
+    "scenario_label": "Kyoto 5-day temples & food (USD ~100/day mid-range)"
+  },
+  "destination": {
+    "destination_summary": "Kyoto, Japan's ancient capital, is renowned for its abundance of well-preserved temples, traditional neighborhoods, and culinary culture. A 5-day visit offers a rich experience of serene shrine and temple visits, exploration of historic districts like Gion, and sampling casual, authentic Japanese cuisine particularly around Nishiki Market. The city combines cultural heritage with accessible urban comforts, providing a relaxing yet immersive journey into Japan's history and daily life.",
+    "climate_and_best_season": "Kyoto has a humid subtropical climate with four distinct seasons. The best times to visit are spring (March to May) when cherry blossoms bloom and autumn (October to November) for vibrant fall foliage. Summers (June to August) can be hot and humid with occasional rains, while winters (December to February) are cool and dry but generally mild.",
+    "highlights": [
+      "Visit iconic temples such as Kinkaku-ji (Golden Pavilion), Ginkaku-ji (Silver Pavilion), and Kiyomizu-dera for their historical and architectural significance.",
+      "Explore traditional neighborhoods like Gion to glimpse geisha culture and preserved wooden machiya houses.",
+      "Stroll through Nishiki Market to experience Kyoto’s famous culinary scene with street food and fresh ingredients.",
+      "Take a leisurely walk on the Philosopher's Path visiting smaller temples and shrines in a tranquil setting.",
+      "Consider a day trip to nearby Arashiyama to see the Bamboo Grove and Tenryu-ji Temple with scenic rivers and mountains."
+    ],
+    "practical_notes": [
+      "Tourist visa requirements depend on nationality; many countries have visa exemptions for short stays in Japan—check current rules prior to travel.",
+      "Kyoto has an extensive bus and subway network; the Kyoto City Bus & Subway One-day Pass is convenient for temple and district touring.",
+      "The city is very safe with low crime; standard travel precautions suffice.",
+      "Carry cash as some small eateries and temples may not accept credit cards.",
+      "Use comfortable walking shoes as many temple visits and neighborhood explorations involve walking on uneven surfaces.",
+      "English signage is common, but learning a few basic Japanese phrases can enhance the experience.",
+      "Pack for the season—light clothing and rain gear in warmer months, layers and wind protection in cooler months."
+    ]
+  },
+  "budget": {
+    "currency_assumption": "USD",
+    "overall_band": "medium",
+    "stated_budget_interpretation": "User budget hint of approximately USD 100 per day per person with a mid-range travel style is interpreted as a daily spending cap to cover accommodation, food, transport, and activities focused on temples and traditional experiences in Kyoto.",
+    "daily_spend_estimate_notes": "Kyoto’s mid-range daily costs for accommodation in comfortable hotels or ryokans, casual meals, public transport, and entrance fees to temples average around USD 90–110 per day. This fits well within the stated USD 100/day budget.",
+    "category_breakdown": [
+      {
+        "category": "Accommodation",
+        "notes_for_low_mid_high": "Low: Budget guesthouses or hostels around $30-$50/night. Mid: Comfortable business hotels or traditional inns (ryokans) around $70-$120/night. High: Upscale boutique hotels or luxury ryokans exceeding $150/night."
+      },
+      {
+        "category": "Food and Dining",
+        "notes_for_low_mid_high": "Low: Convenience store meals and casual eateries $10-$20/day. Mid: Mix of casual local restaurants and street food $20-$40/day. High: Dining at fine restaurants or multi-course kaiseki meals $50 and up per meal."
+      },
+      {
+        "category": "Transportation",
+        "notes_for_low_mid_high": "Low: Walking and single bus rides $5-$10/day. Mid: Day passes for city buses and subways $10-$15/day. High: Taxi rides or private chauffeurs $30 and up/day."
+      },
+      {
+        "category": "Activities and Entrance Fees",
+        "notes_for_low_mid_high": "Low: Free temple visits and modest donations $0-$5/day. Mid: Entrance fees to major temples and some guided tours $10-$20/day. High: Private guided tours, cultural experiences, workshops $30 and up/day."
+      }
+    ],
+    "key_assumptions": [
+      "User prefers a relaxed pacing which limits costly fast travel or multiple day trips per day.",
+      "Mid-range budget covers accommodations that balance comfort and local authenticity, not luxury.",
+      "Meals aim for casual dining focusing on local cuisine rather than expensive restaurants.",
+      "Transport uses public options such as bus and subway with occasional taxis if needed.",
+      "Activities focus on temple visits and neighborhood exploration with entrance fees included but no luxury cultural experiences or guided private tours."
+    ]
+  },
+  "hotels": {
+    "data_disclaimer": "Verify names, prices, and availability before booking; rates are indicative.",
+    "recommendations": [
+      {
+        "property_name": "Hotel Gracery Kyoto Sanjo",
+        "property_type": "hotel",
+        "neighborhood_or_area": "Central Kyoto, near Nishiki Market",
+        "approximate_nightly_price_hint": "USD 90-110",
+        "vibe_and_amenities": "Modern hotel with comfortable rooms, free wifi, close to Nishiki Market and traditional dining spots; breakfast available.",
+        "match_to_user_budget": "Matches the mid-range approximately USD 100 per night budget, offering good value near key casual food and temple areas."
+      },
+      {
+        "property_name": "Guest House An",
+        "property_type": "guesthouse",
+        "neighborhood_or_area": "Gion District",
+        "approximate_nightly_price_hint": "USD 80-100",
+        "vibe_and_amenities": "Traditional Japanese guesthouse with tatami rooms, cozy atmosphere, wifi, located within walking distance to temples and the Gion geisha district.",
+        "match_to_user_budget": "Fits the user budget of around USD 100 per night, perfect for an immersive traditional stay in a historic neighborhood."
+      },
+      {
+        "property_name": "Sakura Terrace The Gallery",
+        "property_type": "hotel",
+        "neighborhood_or_area": "Kyoto Station area",
+        "approximate_nightly_price_hint": "USD 95-120",
+        "vibe_and_amenities": "Contemporary design hotel with free wifi, on-site cafe, and easy transport links to temples and markets for relaxed sightseeing.",
+        "match_to_user_budget": "Suitable for a mid-range budget and provides convenient access for temple and neighborhood visits within the stated budget."
+      }
+    ]
+  },
+  "itinerary": {
+    "trip_title": "5-Day Kyoto Experience: Temples, Tradition, and Casual Cuisine",
+    "budget_alignment_summary": "This itinerary adheres to the mid-range budget of approximately USD 100 per day by emphasizing a mix of paid and free temple visits, casual dining experiences focused on local fare, and use of Kyoto's efficient public transportation including bus and subway day passes. Accommodation suggestions near central Kyoto, Gion, and Kyoto Station are balanced to fit the budget around USD 90-110 per night. Meals predominantly involve casual restaurants and street food options averaging $20-$40 per day. Transport relies mainly on public transit with minimal taxi use, keeping transit costs around $10-$15 per day. Activities include entrance fees to major temples ($5-$10 each) balanced with free visits to smaller shrines and neighborhood walks, avoiding costly private tours or multi-course meals. This approach balances authentic cultural engagement and comfort without exceeding the mid-range daily spend target.",
+    "pacing_notes": "The itinerary is paced to allow relaxed exploration of temples and traditional neighborhoods without rushing, suitable for a traveler looking to absorb the ambiance of Kyoto. Days include a reasonable number of temple visits and strolling through neighborhoods like Gion and Nishiki Market, with afternoon and evening free time to enjoy casual meals and leisure walking. Day trip to Arashiyama is planned without cramming, ensuring comfort and enjoyment of scenic spots. This relaxed pacing minimizes transit fatigue and supports a laid-back immersion in Kyoto's culture and cuisine.",
+    "days": [
+      {
+        "day_number": 1,
+        "theme": "Introduction to Kyoto Temples and Nishiki Market",
+        "morning": "Visit Kinkaku-ji (Golden Pavilion) temple, enjoy the iconic gold leaf temple and its surrounding gardens.",
+        "afternoon": "Explore Nishiki Market for casual lunch sampling local street food and fresh ingredients; stroll through adjacent traditional shopping streets.",
+        "evening": "Walk around Pontocho Alley for dinner at a casual, local eatery; soak up the atmosphere of traditional Kyoto nightlife.",
+        "local_tips": "Start early at Kinkaku-ji to avoid crowds; Nishiki Market is best experienced before late afternoon to catch all vendors; Pontocho has many cozy restaurants, try yakitori or tempura."
+      },
+      {
+        "day_number": 2,
+        "theme": "Historic Gion and Temple Circuit",
+        "morning": "Walk through the Gion district visiting Yasaka Shrine and stroll along the preserved streets spotting traditional machiya houses.",
+        "afternoon": "Visit Kiyomizu-dera Temple, enjoy views over Kyoto city and explore nearby historic streets like Sannenzaka and Ninenzaka.",
+        "evening": "Casual dinner in Gion, try a small izakaya or noodle shop; attend an early evening walk spotting geisha if lucky.",
+        "local_tips": "Wear comfortable shoes for uphill and cobblestone paths around Kiyomizu-dera; afternoon is a great time for temple views; early dinner helps avoid crowds."
+      },
+      {
+        "day_number": 3,
+        "theme": "Philosopher's Path and Silver Pavilion",
+        "morning": "Stroll the Philosopher's Path, visiting small temples like Honen-in and Ginkaku-ji (Silver Pavilion).",
+        "afternoon": "Relax in a riverside café near the path; visit nearby Nanzen-ji Temple complex.",
+        "evening": "Casual dinner near Kyoto Station area for easy access back to accommodation; try casual ramen or donburi dishes.",
+        "local_tips": "Philosopher's Path is serene and best in the morning; Nanzen-ji has free sections plus paid garden areas with modest fees; consider a Kyoto City Bus day pass covering transit for this day."
+      },
+      {
+        "day_number": 4,
+        "theme": "Day Trip to Arashiyama Bamboo Grove and Temples",
+        "morning": "Bus or train to Arashiyama; walk through the famous Bamboo Grove early before crowds increase.",
+        "afternoon": "Visit Tenryu-ji Temple and adjacent gardens; stroll by the Katsura River and explore the traditional neighborhood.",
+        "evening": "Return to central Kyoto; have dinner around Nishiki Market or near your hotel with casual izakaya options.",
+        "local_tips": "Arrive early at Bamboo Grove for best photos; Tenryu-ji has an entrance fee but worth the visit; comfortable walking shoes recommended for varied terrain."
+      },
+      {
+        "day_number": 5,
+        "theme": "Local Neighborhoods and Leisurely Departure",
+        "morning": "Visit Fushimi Inari Shrine early to walk through the famous torii gate tunnels; this is a free attraction allowing flexible timing.",
+        "afternoon": "Return toward central Kyoto, explore less-visited temples or shop for souvenirs in traditional districts such as Teramachi Street.",
+        "evening": "Casual farewell dinner at a family-style restaurant in central Kyoto, savoring typical Kyoto dishes like obanzai (home-style cooking).",
+        "local_tips": "Fushimi Inari can be crowded midday; morning is best to enjoy tranquil walk; keep luggage storage options in mind if departing later."
+      }
+    ]
+  },
+  "raw_final": "{\"trip_title\":\"5-Day Kyoto Experience: Temples, Tradition, and Casual Cuisine\",\"budget_alignment_summary\":\"This itinerary adheres to the mid-range budget of approximately USD 100 per day by emphasizing a mix of paid and free temple visits, casual dining experiences focused on local fare, and use of Kyoto's efficient public transportation including bus and subway day passes. Accommodation suggestions near central Kyoto, Gion, and Kyoto Station are balanced to fit the budget around USD 90-110 per night. Meals predominantly involve casual restaurants and street food options averaging $20-$40 per day. Transport relies mainly on public transit with minimal taxi use, keeping transit costs around $10-$15 per day. Activities include entrance fees to major temples ($5-$10 each) balanced with free visits to smaller shrines and neighborhood walks, avoiding costly private tours or multi-course meals. This approach balances authentic cultural engagement and comfort without exceeding the mid-range daily spend target.\",\"pacing_notes\":\"The itinerary is paced to allow relaxed exploration of temples and traditional neighborhoods without rushing, suitable for a traveler looking to absorb the ambiance of Kyoto. Days include a reasonable number of temple visits and strolling through neighborhoods like Gion and Nishiki Market, with afternoon and evening free time to enjoy casual meals and leisure walking. Day trip to Arashiyama is planned without cramming, ensuring comfort and enjoyment of scenic spots. This relaxed pacing minimizes transit fatigue and supports a laid-back immersion in Kyoto's culture and cuisine.\",\"days\":[{\"day_number\":1,\"theme\":\"Introduction to Kyoto Temples and Nishiki Market\",\"morning\":\"Visit Kinkaku-ji (Golden Pavilion) temple, enjoy the iconic gold leaf temple and its surrounding gardens.\",\"afternoon\":\"Explore Nishiki Market for casual lunch sampling local street food and fresh ingredients; stroll through adjacent traditional shopping streets.\",\"evening\":\"Walk around Pontocho Alley for dinner at a casual, local eatery; soak up the atmosphere of traditional Kyoto nightlife.\",\"local_tips\":\"Start early at Kinkaku-ji to avoid crowds; Nishiki Market is best experienced before late afternoon to catch all vendors; Pontocho has many cozy restaurants, try yakitori or tempura.\"},{\"day_number\":2,\"theme\":\"Historic Gion and Temple Circuit\",\"morning\":\"Walk through the Gion district visiting Yasaka Shrine and stroll along the preserved streets spotting traditional machiya houses.\",\"afternoon\":\"Visit Kiyomizu-dera Temple, enjoy views over Kyoto city and explore nearby historic streets like Sannenzaka and Ninenzaka.\",\"evening\":\"Casual dinner in Gion, try a small izakaya or noodle shop; attend an early evening walk spotting geisha if lucky.\",\"local_tips\":\"Wear comfortable shoes for uphill and cobblestone paths around Kiyomizu-dera; afternoon is a great time for temple views; early dinner helps avoid crowds.\"},{\"day_number\":3,\"theme\":\"Philosopher's Path and Silver Pavilion\",\"morning\":\"Stroll the Philosopher's Path, visiting small temples like Honen-in and Ginkaku-ji (Silver Pavilion).\",\"afternoon\":\"Relax in a riverside café near the path; visit nearby Nanzen-ji Temple complex.\",\"evening\":\"Casual dinner near Kyoto Station area for easy access back to accommodation; try casual ramen or donburi dishes.\",\"local_tips\":\"Philosopher's Path is serene and best in the morning; Nanzen-ji has free sections plus paid garden areas with modest fees; consider a Kyoto City Bus day pass covering transit for this day.\"},{\"day_number\":4,\"theme\":\"Day Trip to Arashiyama Bamboo Grove and Temples\",\"morning\":\"Bus or train to Arashiyama; walk through the famous Bamboo Grove early before crowds increase.\",\"afternoon\":\"Visit Tenryu-ji Temple and adjacent gardens; stroll by the Katsura River and explore the traditional neighborhood.\",\"evening\":\"Return to central Kyoto; have dinner around Nishiki Market or near your hotel with casual izakaya options.\",\"local_tips\":\"Arrive early at Bamboo Grove for best photos; Tenryu-ji has an entrance fee but worth the visit; comfortable walking shoes recommended for varied terrain.\"},{\"day_number\":5,\"theme\":\"Local Neighborhoods and Leisurely Departure\",\"morning\":\"Visit Fushimi Inari Shrine early to walk through the famous torii gate tunnels; this is a free attraction allowing flexible timing.\",\"afternoon\":\"Return toward central Kyoto, explore less-visited temples or shop for souvenirs in traditional districts such as Teramachi Street.\",\"evening\":\"Casual farewell dinner at a family-style restaurant in central Kyoto, savoring typical Kyoto dishes like obanzai (home-style cooking).\",\"local_tips\":\"Fushimi Inari can be crowded midday; morning is best to enjoy tranquil walk; keep luggage storage options in mind if departing later.\"}]}",
+  "pipeline_mode": "parallel",
+  "session_memory_mode": "full"
+}

@@ -1,0 +1,169 @@
+{
+  "_provenance": {
+    "generated_at_utc": "2026-04-07T15:54:11Z",
+    "pipeline": "parallel (destination → budget ∥ hotel → itinerary)",
+    "environment": "TRAVEL_PLANNER_DISABLE_SERPER=true (no live web search during capture)",
+    "disclaimer": "LLM-generated; verify hotels, prices, and travel rules before booking.",
+    "scenario_label": "Lisbon 7-day backpacker (~EUR 45/day)"
+  },
+  "destination": {
+    "destination_summary": "Lisbon, the coastal capital of Portugal, offers a rich mix of historic charm, vibrant culture, and scenic viewpoints known as miradouros. This trip focuses on a low-cost backpacking experience over one week, prioritizing enjoying Lisbon's best viewpoints and savoring authentic Portuguese food at budget-friendly local eateries (tascas). An optional day trip to the fairytale town of Sintra, famous for its palaces and natural beauty, can complement the urban experience within the same trip timespan.",
+    "climate_and_best_season": "Lisbon enjoys a Mediterranean climate with mild, rainy winters and warm, dry summers. The best season for backpacking and exploring viewpoints comfortably is spring (March to May) or fall (September to early November), when the weather is pleasant and crowds are smaller, ideal for budget travelers looking to avoid peak prices and summer heat.",
+    "highlights": [
+      "Miradouro de Santa Catarina – popular viewpoint with views over the Tagus River",
+      "Miradouro da Senhora do Monte – one of the highest points offering panoramic city views",
+      "Miradouro de São Pedro de Alcântara – a well-maintained garden viewpoint in the Bairro Alto district",
+      "Exploring Alfama neighborhood’s narrow streets and viewpoints like Miradouro das Portas do Sol",
+      "Sampling traditional Portuguese dishes at tascas such as bacalhau (cod) and pastel de nata (custard tart)",
+      "Visiting Mercado da Ribeira (Time Out Market) for affordable gourmet food stalls",
+      "Optional day trip to Sintra to see Pena Palace, Moorish Castle, and the quaint town center",
+      "Packing a reusable water bottle and sturdy walking shoes for walking Lisbon’s hilly streets and viewpoints"
+    ],
+    "practical_notes": [
+      "No visa required for short stays for many nationalities; check current rules based on your passport",
+      "Lisbon’s public transport network includes trams, buses, metro, and trains; a reloadable Viva Viagem card offers economical travel",
+      "Many viewpoints are accessible on foot from central locations, but the tram 28 route is iconic and budget-friendly for hilly areas",
+      "Safety is generally good but watch for pickpockets in tourist areas and crowded trams",
+      "Daily budget of approx. EUR 45 covers low-cost accommodation (hostels or guesthouses), food from tascas and markets, local transport, and entrance fees if applicable",
+      "Pack layers for variable spring/fall weather and comfortable shoes for cobblestone streets and climbing steps to viewpoints"
+    ]
+  },
+  "budget": {
+    "currency_assumption": "EUR",
+    "overall_band": "low",
+    "stated_budget_interpretation": "Backpacker budget about EUR 45 per day total for 7 days in Lisbon focusing on low-cost accommodation, cheap local food, public transport, and primarily free or low-cost activities (viewpoints).",
+    "daily_spend_estimate_notes": "Daily spend covers low-cost hostel dorm beds or shared guesthouses, meals from tascas and markets, public transport with a Viva Viagem card, and modest incidental expenses. Activities mainly free viewing points and optional budget-friendly day trip to Sintra by train.",
+    "category_breakdown": [
+      {
+        "category": "Accommodation",
+        "notes_for_low_mid_high": "Low: Hostel dorm beds or shared guesthouses (~EUR 10-15); Mid: Basic private guesthouses or budget hotels (~EUR 30-50); High: Boutique hotels or central apartments (~EUR 70+)."
+      },
+      {
+        "category": "Food and Drink",
+        "notes_for_low_mid_high": "Low: Meals from local tascas, markets, and bakeries (~EUR 8-12/day); Mid: Casual restaurants with some drinks (~EUR 15-25); High: Gourmet restaurants and frequent dining out (~EUR 40+)."
+      },
+      {
+        "category": "Transport",
+        "notes_for_low_mid_high": "Low: Public transport day passes and occasional tram (~EUR 5/day); Mid: Frequent use of taxis or rental bike (~EUR 10-20); High: Private transfers or car rentals (~EUR 30+)."
+      },
+      {
+        "category": "Activities and Entrance Fees",
+        "notes_for_low_mid_high": "Low: Mostly free viewpoints and walking (~EUR 0-5/day); Mid: Some paid museum entries and optional day trip to Sintra (~EUR 10-20); High: Guided tours, palace entries, and premium experiences (~EUR 30+)."
+      },
+      {
+        "category": "Miscellaneous",
+        "notes_for_low_mid_high": "Low: Minimal extras like water bottle refills or souvenirs (~EUR 2-5); Mid: Some shopping or additional snacks (~EUR 10-20); High: Frequent shopping and extras (~EUR 30+)."
+      }
+    ],
+    "key_assumptions": [
+      "Travel in spring or fall for best budget prices and weather.",
+      "Stay in central or well-connected neighborhoods to minimize transport costs.",
+      "Primarily eat at local budget-friendly tascas and buy food from markets.",
+      "Use public transportation day passes and walk between viewpoints regularly.",
+      "Only one optional day trip to Sintra by local train included within budget."
+    ]
+  },
+  "hotels": {
+    "data_disclaimer": "Verify names, prices, and availability before booking; rates are indicative.",
+    "recommendations": [
+      {
+        "property_name": "Lisbon Chillout Hostel",
+        "property_type": "hostel",
+        "neighborhood_or_area": "Barrio Alto",
+        "approximate_nightly_price_hint": "EUR 15-25 per night",
+        "vibe_and_amenities": "Casual, social vibe close to nightlife, free WiFi, shared kitchen, lockers",
+        "match_to_user_budget": "Fits well within the backpacker budget of around EUR 45 per day, leaving room for food and transport."
+      },
+      {
+        "property_name": "Goodmorning Solo Traveller Hostel",
+        "property_type": "hostel",
+        "neighborhood_or_area": "Intendente",
+        "approximate_nightly_price_hint": "EUR 20-30 per night",
+        "vibe_and_amenities": "Friendly atmosphere, breakfast included, free WiFi, common area for mingling",
+        "match_to_user_budget": "Ideal for a budget of EUR 45 daily by combining affordable lodging with cheap local tascas."
+      },
+      {
+        "property_name": "Goodnight Hostel",
+        "property_type": "hostel",
+        "neighborhood_or_area": "Baixa",
+        "approximate_nightly_price_hint": "EUR 18-28 per night",
+        "vibe_and_amenities": "Modern hostel, close to central sights, free WiFi, snack bar, secure lockers",
+        "match_to_user_budget": "Aligns well with the EUR 45/day backpacking budget, giving flexibility for meals and excursions."
+      },
+      {
+        "property_name": "We Love F. Tourists Hostel",
+        "property_type": "hostel",
+        "neighborhood_or_area": "Alfama",
+        "approximate_nightly_price_hint": "EUR 20-27 per night",
+        "vibe_and_amenities": "Charming, in historic Alfama near viewpoints, free WiFi, breakfast available",
+        "match_to_user_budget": "Perfect match for backpackers with EUR 45 per day, enabling exploration of viewpoints and local cuisine."
+      }
+    ]
+  },
+  "itinerary": {
+    "trip_title": "Backpacker Week in Lisbon: Viewpoints and Local Flavors",
+    "budget_alignment_summary": "This itinerary is fully aligned with a backpacker budget of approximately EUR 45 per day, prioritizing free or very low-cost activities (primarily iconic viewpoints and walking tours), meals at budget-friendly local tascas and markets, and economical transport using a Viva Viagem card for trams, buses, and metro. Accommodation suggestions focus on hostel dorm beds in centrally located neighborhoods such as Alfama and Bairro Alto to minimize transport costs and enable easy walking access to key sights. The optional day trip to Sintra uses affordable local trains and avoids costly guided tours or palace entrances. Trade-offs include focusing on free miradouros rather than paid museum or palace entries, simple local meals over gourmet dining, and public transport over taxis, managing a full yet relaxed daily schedule that fits the backpacker spend and maximizes authentic Lisbon experiences.",
+    "pacing_notes": "The itinerary maintains a full but manageable pace suitable for backpackers, balancing active exploration of viewpoints and neighborhoods with ample time for meals and short rest breaks. Most days involve walking combined with public transport to cover different neighborhoods and viewpoints efficiently. The Sintra day trip is a longer outing yet paced for budget travelers using trains. Evenings focus on local tascas and neighborhoods with relaxed atmospheres to unwind. The plan avoids overbooking and high-cost activities to keep spending low and maintain energy levels throughout the week.",
+    "days": [
+      {
+        "day_number": 1,
+        "theme": "Introduction to Lisbon’s Historic Heart and River Views",
+        "morning": "Arrive and check into a budget hostel in Alfama neighborhood. Begin exploring nearby streets leading up to Miradouro das Portas do Sol for panoramic views over the river and Alfama rooftops.",
+        "afternoon": "Walk through Alfama towards Miradouro de Santa Luzia. Have a light lunch at a local tasca serving traditional Portuguese snacks and pastel de nata.",
+        "evening": "Stroll along the riverfront promenade and have dinner at Mercado da Ribeira food stalls for affordable variety and vibrant atmosphere.",
+        "local_tips": "Stay hydrated and wear comfortable shoes for cobblestone streets. Alfama is hilly and maze-like but rewarding for views and photo ops."
+      },
+      {
+        "day_number": 2,
+        "theme": "Exploring Bairro Alto and Iconic Miradouros",
+        "morning": "Use tram 28 from Alfama to Bairro Alto. Visit Miradouro de São Pedro de Alcântara early to avoid crowds and enjoy cityscape views.",
+        "afternoon": "Lunch at a budget-friendly tasca in Bairro Alto specializing in bacalhau dishes. Wander streets and visit nearby Principe Real Gardens or local markets.",
+        "evening": "Experience sunset at Miradouro da Senhora do Monte, one of Lisbon's highest viewpoints. Dinner at a local eatery in the neighborhood with inexpensive Portuguese wine.",
+        "local_tips": "Bring a reusable water bottle; it’s easy to refill at public fountains. Tram 28 is iconic but pickpocket-prone—keep belongings secure."
+      },
+      {
+        "day_number": 3,
+        "theme": "Castle District and Alfama Walkabouts",
+        "morning": "Visit the exterior and gardens around São Jorge Castle area (free public areas). Explore hidden alleys of Alfama on foot, focusing on viewpoint spots and street art.",
+        "afternoon": "Grab a picnic lunch from a supermarket or market stalls to enjoy in a miradouro garden like Miradouro de Santa Catarina.",
+        "evening": "Have a casual dinner at a traditional tasca favored by locals; try grilled sardines or octopus salad.",
+        "local_tips": "Expect hill climbs and many steps. Take breaks at cafés as needed. Evening dining in tascas can be very affordable late in the day."
+      },
+      {
+        "day_number": 4,
+        "theme": "Belém District Highlights and Riverfront Views",
+        "morning": "Take tram or bus to Belém area. Visit free outdoor sights like Belém Tower and Monument to Discoveries from outside (paid entry optional and avoided to save budget).",
+        "afternoon": "Enjoy the famous pastel de nata at Pastéis de Belém bakery. Picnic or low-cost lunch nearby. Visit Parque dos Jerónimos for relaxation and some viewpoints.",
+        "evening": "Return to central Lisbon for dinner at an affordable restaurant near Rossio or Baixa areas.",
+        "local_tips": "Use public transport passes to cover transfer. Weekday mornings at Belém are less crowded. Don’t miss free restroom facilities at museums if visiting indoors."
+      },
+      {
+        "day_number": 5,
+        "theme": "Day Trip to Sintra’s Fairy-tale Views (Optional)",
+        "morning": "Catch an early train from Rossio station to Sintra (about 40 mins). Walk the historic center and visit the free gardens and public viewpoints.",
+        "afternoon": "Bring packed lunch or buy inexpensive snacks at Sintra markets. Choose to see the outside of Pena Palace and Moorish Castle without entering to save costs.",
+        "evening": "Return to Lisbon. Light dinner at hostel or a budget cafe near accommodation to rest after a full day.",
+        "local_tips": "Wear comfortable shoes for uneven paths and hills. Train tickets can be bought one-way or round trip; consider a Viva Viagem pass if returning same day."
+      },
+      {
+        "day_number": 6,
+        "theme": "Markets, Creative Neighborhoods and Viewpoints",
+        "morning": "Explore Mercado da Ribeira for breakfast and affordable food shopping. Walk towards Cais do Sodré neighborhood and Miradouro de Santa Catarina again for a relaxed start.",
+        "afternoon": "Visit LX Factory arts complex nearby for some free browsing of shops and street art, dining at economical food stalls if desired.",
+        "evening": "Return to Bairro Alto or Alfama for an informal dinner at a tasca, soaking up local vibes and perhaps listening to live Fado music in a budget-friendly venue.",
+        "local_tips": "Avoid main tourist crowds by exploring side streets and small alleys. Check Fado schedules in advance to find free or low-cost performances."
+      },
+      {
+        "day_number": 7,
+        "theme": "Final Views and Farewell to Lisbon",
+        "morning": "Slow morning walking to Miradouro da Senhora do Monte or any previously favored viewpoint for last panoramic photos.",
+        "afternoon": "Light lunch at a bakery or tasca. Last-minute souvenir hunting at small shops around Baixa or Alfama.",
+        "evening": "Dinner in a popular but affordable neighborhood spot, then pack and prepare for departure. Reflect on the week’s scenic and culinary discoveries.",
+        "local_tips": "Use leftover transport credit carefully or save by walking short distances. Many hostels can store bags if your departure is late in the day."
+      }
+    ]
+  },
+  "raw_final": "{\"trip_title\":\"Backpacker Week in Lisbon: Viewpoints and Local Flavors\",\"budget_alignment_summary\":\"This itinerary is fully aligned with a backpacker budget of approximately EUR 45 per day, prioritizing free or very low-cost activities (primarily iconic viewpoints and walking tours), meals at budget-friendly local tascas and markets, and economical transport using a Viva Viagem card for trams, buses, and metro. Accommodation suggestions focus on hostel dorm beds in centrally located neighborhoods such as Alfama and Bairro Alto to minimize transport costs and enable easy walking access to key sights. The optional day trip to Sintra uses affordable local trains and avoids costly guided tours or palace entrances. Trade-offs include focusing on free miradouros rather than paid museum or palace entries, simple local meals over gourmet dining, and public transport over taxis, managing a full yet relaxed daily schedule that fits the backpacker spend and maximizes authentic Lisbon experiences.\",\"pacing_notes\":\"The itinerary maintains a full but manageable pace suitable for backpackers, balancing active exploration of viewpoints and neighborhoods with ample time for meals and short rest breaks. Most days involve walking combined with public transport to cover different neighborhoods and viewpoints efficiently. The Sintra day trip is a longer outing yet paced for budget travelers using trains. Evenings focus on local tascas and neighborhoods with relaxed atmospheres to unwind. The plan avoids overbooking and high-cost activities to keep spending low and maintain energy levels throughout the week.\",\"days\":[{\"day_number\":1,\"theme\":\"Introduction to Lisbon’s Historic Heart and River Views\",\"morning\":\"Arrive and check into a budget hostel in Alfama neighborhood. Begin exploring nearby streets leading up to Miradouro das Portas do Sol for panoramic views over the river and Alfama rooftops.\",\"afternoon\":\"Walk through Alfama towards Miradouro de Santa Luzia. Have a light lunch at a local tasca serving traditional Portuguese snacks and pastel de nata.\",\"evening\":\"Stroll along the riverfront promenade and have dinner at Mercado da Ribeira food stalls for affordable variety and vibrant atmosphere.\",\"local_tips\":\"Stay hydrated and wear comfortable shoes for cobblestone streets. Alfama is hilly and maze-like but rewarding for views and photo ops.\"},{\"day_number\":2,\"theme\":\"Exploring Bairro Alto and Iconic Miradouros\",\"morning\":\"Use tram 28 from Alfama to Bairro Alto. Visit Miradouro de São Pedro de Alcântara early to avoid crowds and enjoy cityscape views.\",\"afternoon\":\"Lunch at a budget-friendly tasca in Bairro Alto specializing in bacalhau dishes. Wander streets and visit nearby Principe Real Gardens or local markets.\",\"evening\":\"Experience sunset at Miradouro da Senhora do Monte, one of Lisbon's highest viewpoints. Dinner at a local eatery in the neighborhood with inexpensive Portuguese wine.\",\"local_tips\":\"Bring a reusable water bottle; it’s easy to refill at public fountains. Tram 28 is iconic but pickpocket-prone—keep belongings secure.\"},{\"day_number\":3,\"theme\":\"Castle District and Alfama Walkabouts\",\"morning\":\"Visit the exterior and gardens around São Jorge Castle area (free public areas). Explore hidden alleys of Alfama on foot, focusing on viewpoint spots and street art.\",\"afternoon\":\"Grab a picnic lunch from a supermarket or market stalls to enjoy in a miradouro garden like Miradouro de Santa Catarina.\",\"evening\":\"Have a casual dinner at a traditional tasca favored by locals; try grilled sardines or octopus salad.\",\"local_tips\":\"Expect hill climbs and many steps. Take breaks at cafés as needed. Evening dining in tascas can be very affordable late in the day.\"},{\"day_number\":4,\"theme\":\"Belém District Highlights and Riverfront Views\",\"morning\":\"Take tram or bus to Belém area. Visit free outdoor sights like Belém Tower and Monument to Discoveries from outside (paid entry optional and avoided to save budget).\",\"afternoon\":\"Enjoy the famous pastel de nata at Pastéis de Belém bakery. Picnic or low-cost lunch nearby. Visit Parque dos Jerónimos for relaxation and some viewpoints.\",\"evening\":\"Return to central Lisbon for dinner at an affordable restaurant near Rossio or Baixa areas.\",\"local_tips\":\"Use public transport passes to cover transfer. Weekday mornings at Belém are less crowded. Don’t miss free restroom facilities at museums if visiting indoors.\"},{\"day_number\":5,\"theme\":\"Day Trip to Sintra’s Fairy-tale Views (Optional)\",\"morning\":\"Catch an early train from Rossio station to Sintra (about 40 mins). Walk the historic center and visit the free gardens and public viewpoints.\",\"afternoon\":\"Bring packed lunch or buy inexpensive snacks at Sintra markets. Choose to see the outside of Pena Palace and Moorish Castle without entering to save costs.\",\"evening\":\"Return to Lisbon. Light dinner at hostel or a budget cafe near accommodation to rest after a full day.\",\"local_tips\":\"Wear comfortable shoes for uneven paths and hills. Train tickets can be bought one-way or round trip; consider a Viva Viagem pass if returning same day.\"},{\"day_number\":6,\"theme\":\"Markets, Creative Neighborhoods and Viewpoints\",\"morning\":\"Explore Mercado da Ribeira for breakfast and affordable food shopping. Walk towards Cais do Sodré neighborhood and Miradouro de Santa Catarina again for a relaxed start.\",\"afternoon\":\"Visit LX Factory arts complex nearby for some free browsing of shops and street art, dining at economical food stalls if desired.\",\"evening\":\"Return to Bairro Alto or Alfama for an informal dinner at a tasca, soaking up local vibes and perhaps listening to live Fado music in a budget-friendly venue.\",\"local_tips\":\"Avoid main tourist crowds by exploring side streets and small alleys. Check Fado schedules in advance to find free or low-cost performances.\"},{\"day_number\":7,\"theme\":\"Final Views and Farewell to Lisbon\",\"morning\":\"Slow morning walking to Miradouro da Senhora do Monte or any previously favored viewpoint for last panoramic photos.\",\"afternoon\":\"Light lunch at a bakery or tasca. Last-minute souvenir hunting at small shops around Baixa or Alfama.\",\"evening\":\"Dinner in a popular but affordable neighborhood spot, then pack and prepare for departure. Reflect on the week’s scenic and culinary discoveries.\",\"local_tips\":\"Use leftover transport credit carefully or save by walking short distances. Many hostels can store bags if your departure is late in the day.\"}]}",
+  "pipeline_mode": "parallel",
+  "session_memory_mode": "full"
+}
