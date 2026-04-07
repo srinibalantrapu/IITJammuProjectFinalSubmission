@@ -1,0 +1,37 @@
+[project]
+name = "crewai-travel-planner"
+version = "0.1.0"
+description = "CrewAI multi-agent AI Travel Planner (course assignment)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "crewai>=1.12,<1.14",
+    "crewai-tools>=1.12,<1.14",
+    "gradio>=5.0,<6",
+    "pydantic>=2.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "ruff", "mypy"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+ignore_missing_imports = true

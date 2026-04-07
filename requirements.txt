@@ -1,0 +1,6 @@
+crewai>=1.12,<1.14
+crewai-tools>=1.12,<1.14
+gradio>=5.0,<6
+pydantic>=2.0
+python-dotenv>=1.0.0
+pytest>=7.0
